@@ -74,8 +74,9 @@ The algorithm is tested to check the efficiency for some users which are listed 
   ![image](https://user-images.githubusercontent.com/20443793/145141226-d5a0b0d6-9e54-4fd1-aa9e-9031e0915c21.png)
   
    The top 15 recommendations obtained for this user 31 are 
-  
-  
+   
+    'Penguins of Madagascar ', 'Frank ', "Internet's Own Boy: The Story of Aaron Swartz, The ", 'Bridegroom ', 'Great Beauty, The (Grande Bellezza, La) ', 'Sound City ', 'Louis C.K.: Oh My God ', 'Citizenfour ', 'Leviathan ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns ', 'Coherence ', 'Proxy ', 'Sacrament, The ', 'Raze '
+
     
 2) For user id = 540,
    ![image](https://user-images.githubusercontent.com/20443793/145141388-4ffcac6e-3be0-4a28-acef-1686a6956c5d.png)
