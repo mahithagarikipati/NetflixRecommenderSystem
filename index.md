@@ -41,7 +41,39 @@ The algorithm is tested to check the efficiency for some users which are listed 
    ![image](https://user-images.githubusercontent.com/20443793/145141388-4ffcac6e-3be0-4a28-acef-1686a6956c5d.png)
    The top 15 recommendations obtained for this user 540 are 
 
-3) 
+3) For user id = 979,
+   ![image](https://user-images.githubusercontent.com/20443793/145141737-1708a8f6-08aa-4548-87a0-a65a7386ffe2.png)
+   The top 15 recommendations obtained for this user 979 are 
+
+4) For user id = 1588,
+   ![image](https://user-images.githubusercontent.com/20443793/145141938-3eba587f-6a37-4171-bc83-ea8aa4c58ad7.png)
+   The top 15 recommendations obtained for this user 1588 are 
+
+5) For user id = 2460
+   ![image](https://user-images.githubusercontent.com/20443793/145142114-160c7ca2-876e-41d3-b4bb-4648e78e5e01.png)
+   The top 15 recommendations obtained for this user 2460 are 
+
+6) For user id = 3251
+   ![image](https://user-images.githubusercontent.com/20443793/145142198-209d3ec3-a823-456d-848e-e27e056df426.png)
+   The top 15 recommendations obtained for this user 3251 are 
+   
+7) For user id = 3845
+   ![image](https://user-images.githubusercontent.com/20443793/145142295-447045ef-cf22-44eb-bcc2-02ebb735d36b.png)
+   The top 15 recommendations obtained for this user 3845 are 
+
+8) For user id = 4541
+   ![image](https://user-images.githubusercontent.com/20443793/145142501-2f1ffade-ca77-4907-a4ce-9fda48beb2e6.png)
+   The top 15 recommendations obtained for this user 4541 are 
+
+9) For user id = 6175
+   ![image](https://user-images.githubusercontent.com/20443793/145142906-26b59fe6-e358-4c87-a643-e90b54582782.png)
+   The top 15 recommendations obtained for this user 6175 are 
+
+11) For user id = 7027
+   ![image](https://user-images.githubusercontent.com/20443793/145142652-ef53a263-4e91-4767-9b78-aa6f87b98a6b.png)
+   The top 15 recommendations obtained for this user 7027 are 
+
+
 ### Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mahithagarikipati/NetflixRecommenderSystem/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
