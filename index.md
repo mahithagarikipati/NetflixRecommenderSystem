@@ -139,6 +139,9 @@ The algorithm is tested to check the efficiency for some users which are listed 
 5) For user id = 2460
    ![image](https://user-images.githubusercontent.com/20443793/145142114-160c7ca2-876e-41d3-b4bb-4648e78e5e01.png)
    The top 15 recommendations obtained for this user 2460 are 
+   
+    'Adventurer: The Curse of the Midas Box, The ', 'Pride ', 'Trip to Italy, The ', 'Frank ', 'Internet's Own Boy: The Story of Aaron Swartz, The ', 'Double, The ', 'Batman: The Dark Knight Returns, Part 2 ', 'Nightcrawler ', 'All Cheerleaders Die ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Most Wanted Man, A ', 'Raze '
+
 
 6) For user id = 3251
    ![image](https://user-images.githubusercontent.com/20443793/145142198-209d3ec3-a823-456d-848e-e27e056df426.png)
