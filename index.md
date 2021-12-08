@@ -37,7 +37,7 @@ This makes the project really important, since it recommends movies based on use
 
 ### Steps Implemented
 
-#### Datasets
+### Datasets
 
 The dataset that is to be implemented in this project will be MovieLens 20M dataset provided by Kaggle. 
 
@@ -46,6 +46,36 @@ The link to this dataset can be found [here](https://www.kaggle.com/grouplens/mo
 The size of the data is around 693 MB and contains details about the user id, movie id, ratings, timestamp, movie title, year of movie release, genres. 
 
 This dataset contains around 20 Million ratings on 27 thousand movies which are given by 138 thousand users. 
+
+### Understanding of Algorithms:
+
+#### Recommender Systems
+
+The main role of Recommender Systems is to recommend items to the user. 
+
+The items recommended can be based on the previous items liked by the user or based on other users with similar preferences.
+
+This classifies the recommnder systems into 2 types - Collaborative Recommender Systems & Content Based Recommender Systems.
+
+#### Collaborative Recommender Systems:
+
+In this type of Recommender Systems, recommendations are made to user by collecting the data of users having similar preferences and taste.
+
+When applied to this project, it recommends movies to a user based on the ratings of other users with similar preference.
+
+In this project we use Pearson Correlation to recommend top 15 movies to the given user.
+
+#### Content Recommender Systems:
+
+In this type of Recommender Systems, recommendations are made to the user based on the user's preferences in the past.
+
+#### Pearson Correlation Coefficient:
+
+
+
+
+#### Alternating Least Squares
+#### Cosine Similarity:
 
 ###  About our modified dataset:
 
@@ -74,7 +104,7 @@ SInce, the name of the user is not available in the dataset, user id is consider
 Any of these user id's can be selected inorder to get recommendations based on other users ratings.
 
 
-### Pearson Correlation Coefficient Algorithm
+### Pearson Correlation Coefficient Algorithm Results
 The algorithm is tested to check the efficiency for some users which are listed above
 
 1) For user id = 31, the ratings of the movies are as follows
@@ -87,8 +117,8 @@ The algorithm is tested to check the efficiency for some users which are listed 
     
 2) For user id = 540,
    ![image](https://user-images.githubusercontent.com/20443793/145141388-4ffcac6e-3be0-4a28-acef-1686a6956c5d.png)
+   
    The top 15 recommendations obtained for this user 540 are 
-    
     
      'Adventurer: The Curse of the Midas Box, The ', 'Frank ', 'Double, The ', 'Lee Daniels The Butler ', 'Louis C.K.: Oh My God ', 'All Cheerleaders Die ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Raze ', 'Jim Gaffigan: Obsessed ', 'Big Bad Wolves ', 'Six by Sondheim ', 'Toy Story of Terror '
 
@@ -96,10 +126,15 @@ The algorithm is tested to check the efficiency for some users which are listed 
 3) For user id = 979,
    ![image](https://user-images.githubusercontent.com/20443793/145141737-1708a8f6-08aa-4548-87a0-a65a7386ffe2.png)
    The top 15 recommendations obtained for this user 979 are 
+   
+     'Penguins of Madagascar ', 'Foxcatcher ', 'American Sniper ', 'Coherence ', 'Justice League: War ', 'Sound City ', 'Warm Bodies ', 'Wind Rises, The (Kaze tachinu) ', 'Delivery Man ', 'Wish I Was Here ', 'Insidious: Chapter 2 ', 'The Fault in Our Stars ', 'Citizenfour ', 'Bad Words ', 'Big Bad Wolves '
+
 
 4) For user id = 1588,
    ![image](https://user-images.githubusercontent.com/20443793/145141938-3eba587f-6a37-4171-bc83-ea8aa4c58ad7.png)
    The top 15 recommendations obtained for this user 1588 are 
+    
+    'Foxcatcher ', 'Bridegroom ', 'Double, The ', 'Whiplash ', 'Raze ', 'Pride ', 'American Sniper ', 'All Cheerleaders Die ', 'Olive Kitteridge ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Jersey Boys ', 'Normal Heart, The ', 'Jim Gaffigan: Obsessed '
 
 5) For user id = 2460
    ![image](https://user-images.githubusercontent.com/20443793/145142114-160c7ca2-876e-41d3-b4bb-4648e78e5e01.png)
