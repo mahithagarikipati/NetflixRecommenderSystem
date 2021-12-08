@@ -88,6 +88,10 @@ The algorithm is tested to check the efficiency for some users which are listed 
 2) For user id = 540,
    ![image](https://user-images.githubusercontent.com/20443793/145141388-4ffcac6e-3be0-4a28-acef-1686a6956c5d.png)
    The top 15 recommendations obtained for this user 540 are 
+    
+    
+     'Adventurer: The Curse of the Midas Box, The ', 'Frank ', 'Double, The ', "Lee Daniels' The Butler ", 'Louis C.K.: Oh My God ', 'All Cheerleaders Die ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Raze ', 'Jim Gaffigan: Obsessed ', 'Big Bad Wolves ', 'Six by Sondheim ', 'Toy Story of Terror ']
+
 
 3) For user id = 979,
    ![image](https://user-images.githubusercontent.com/20443793/145141737-1708a8f6-08aa-4548-87a0-a65a7386ffe2.png)
