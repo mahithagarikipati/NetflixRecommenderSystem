@@ -2,6 +2,29 @@
 #### Mahitha Garikipati - mgarikip@uncc.edu
 #### Navya Gunti - ngunti@uncc.edu
 
+- [X] 1. Created web page for course project report. One report per team. Prefer UNCC hosted web 
+page, but GitHub or similar sites are ok. Please do not share code on your web page. 
+- [X] 2. Project title and names of team members. 
+- [ ] 3. Overview of project, tasks involved and approach, steps implemented, and final products and 
+results.  
+- [X] 4. Context and motivation for project, stating what is interesting/important/useful/fun about it. 
+- [X] 5. Data set(s) used for project and how they were obtained, size of data, and features used. 
+- [ ] 6. What algorithms and techniques were implemented, and frameworks (e.g., Hadoop, Spark) 
+used. 
+- [ ] 7. Please state any other (external) tools or software packages you used. 
+- [ ] 8. Illustrative results and examples. 
+- [ ] 9. Performance evaluation, preferably quantitative. 
+- [ ] 10.  What aspects of the (a) definitely will do, (b) likely will do, and (c) would ideally like to do items 
+did you accomplish? 
+- [ ] 11.  Any additional comments and observations (e.g., challenges, surprises, cool enhancements, 
+things you learnt,...) 
+- [ ] 12.  Work division among team members. 
+- [ ] 13.  Any important references that you used. 
+- [ ] 14.  Documented and commented code, and README with the information we need to know to run 
+your code. (Do not post code publicly, although you can include snippets in your report if you 
+think that will be helpful.) Submitted on Canvas. 
+- [ ] 15.  Sent email to instructor and TA with link to project report. 
+- [ ] 16.  Signed up for project demo slot (to be decided). 
 ### Overview
 The purpose of this project is to implement Netflix Recommender System by using cloud computing concepts.
 
