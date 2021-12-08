@@ -90,7 +90,7 @@ The algorithm is tested to check the efficiency for some users which are listed 
    The top 15 recommendations obtained for this user 540 are 
     
     
-     'Adventurer: The Curse of the Midas Box, The ', 'Frank ', 'Double, The ', "Lee Daniels' The Butler ", 'Louis C.K.: Oh My God ', 'All Cheerleaders Die ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Raze ', 'Jim Gaffigan: Obsessed ', 'Big Bad Wolves ', 'Six by Sondheim ', 'Toy Story of Terror '
+     'Adventurer: The Curse of the Midas Box, The ', 'Frank ', 'Double, The ', 'Lee Daniels The Butler ', 'Louis C.K.: Oh My God ', 'All Cheerleaders Die ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Raze ', 'Jim Gaffigan: Obsessed ', 'Big Bad Wolves ', 'Six by Sondheim ', 'Toy Story of Terror '
 
 
 3) For user id = 979,
