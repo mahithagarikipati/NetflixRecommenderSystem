@@ -138,7 +138,9 @@ The algorithm is tested to check the efficiency for some users which are listed 
    
    #### Pearson Correlation
    
-    'Penguins of Madagascar ', 'Frank ', 'Internet's Own Boy: The Story of Aaron Swartz' , 'The Bridegroom ', 'Great Beauty, The (Grande Bellezza La)', 'Sound City ', 'Louis C.K.: Oh My God ', 'Citizenfour ', 'Leviathan ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns ', 'Coherence ', 'Proxy ', 'Sacrament, The ', 'Raze '
+   
+     'Penguins of Madagascar ', 'Frank ', 'Internet's Own Boy: The Story of Aaron Swartz' , 'The Bridegroom ', 'Great Beauty, The (Grande Bellezza La)', 'Sound City ', 'Louis C.K.: Oh My God ', 'Citizenfour ', 'Leviathan ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns ', 'Coherence ', 'Proxy ', 'Sacrament, The ', 'Raze '
+    
 
    #### Cosine Similarity
     
@@ -150,7 +152,9 @@ The algorithm is tested to check the efficiency for some users which are listed 
    
     #### Pearson Correlation
     
-     'Adventurer: The Curse of the Midas Box, The ', 'Frank ', 'Double, The ', 'Lee Daniels The Butler ', 'Louis C.K.: Oh My God ', 'All Cheerleaders Die ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Raze ', 'Jim Gaffigan: Obsessed ', 'Big Bad Wolves ', 'Six by Sondheim ', 'Toy Story of Terror '
+    
+      'Adventurer: The Curse of the Midas Box, The ', 'Frank ', 'Double, The ', 'Lee Daniels The Butler ', 'Louis C.K.: Oh My God ', 'All Cheerleaders Die ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Raze ', 'Jim Gaffigan: Obsessed ', 'Big Bad Wolves ', 'Six by Sondheim ', 'Toy Story of Terror '
+     
      
     #### Cosine Similarity
 
@@ -160,8 +164,10 @@ The algorithm is tested to check the efficiency for some users which are listed 
    The top 15 recommendations obtained for this user 979 are 
    
     #### Pearson Correlation
+    
    
-     'Penguins of Madagascar ', 'Foxcatcher ', 'American Sniper ', 'Coherence ', 'Justice League: War ', 'Sound City ', 'Warm Bodies ', 'Wind Rises, The (Kaze tachinu) ', 'Delivery Man ', 'Wish I Was Here ', 'Insidious: Chapter 2 ', 'The Fault in Our Stars ', 'Citizenfour ', 'Bad Words ', 'Big Bad Wolves '
+       'Penguins of Madagascar ', 'Foxcatcher ', 'American Sniper ', 'Coherence ', 'Justice League: War ', 'Sound City ', 'Warm Bodies ', 'Wind Rises, The (Kaze tachinu) ', 'Delivery Man ', 'Wish I Was Here ', 'Insidious: Chapter 2 ', 'The Fault in Our Stars ', 'Citizenfour ', 'Bad Words ', 'Big Bad Wolves '
+     
      
     #### Cosine Similarity
 
@@ -172,11 +178,15 @@ The algorithm is tested to check the efficiency for some users which are listed 
   
     #### Pearson Correlation
     
-    'Foxcatcher ', 'Bridegroom ', 'Double, The ', 'Whiplash ', 'Raze ', 'Pride ', 'American Sniper ', 'All Cheerleaders Die ', 'Olive Kitteridge ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Jersey Boys ', 'Normal Heart, The ', 'Jim Gaffigan: Obsessed '
+    
+      'Foxcatcher ', 'Bridegroom ', 'Double, The ', 'Whiplash ', 'Raze ', 'Pride ', 'American Sniper ', 'All Cheerleaders Die ', 'Olive Kitteridge ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Jersey Boys ', 'Normal Heart, The ', 'Jim Gaffigan: Obsessed '
+    
     
     #### Cosine Similarity
     
-    'Hard to Be a God ', 'Raze ', 'In Your Eyes ', 'Big Bad Wolves ', 'Ascension ', 'Free Fall ', 'Olive Kitteridge ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Trip to Italy, The ', 'Wish I Was Here ', 'Normal Heart, The ', 'Jim Gaffigan: Obsessed ', 'Venus in Fur (La Vénus à la fourrure) '
+    
+      'Hard to Be a God ', 'Raze ', 'In Your Eyes ', 'Big Bad Wolves ', 'Ascension ', 'Free Fall ', 'Olive Kitteridge ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Trip to Italy, The ', 'Wish I Was Here ', 'Normal Heart, The ', 'Jim Gaffigan: Obsessed ', 'Venus in Fur (La Vénus à la fourrure) '
+    
 
 
 5) For user id = 2460
@@ -185,11 +195,15 @@ The algorithm is tested to check the efficiency for some users which are listed 
    
     #### Pearson Correlation
    
-    'Adventurer: The Curse of the Midas Box, The ', 'Pride ', 'Trip to Italy, The ', 'Frank ', 'Internet's Own Boy: The Story of Aaron Swartz, The ', 'Double, The ', 'Batman: The Dark Knight Returns, Part 2 ', 'Nightcrawler ', 'All Cheerleaders Die ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Most Wanted Man, A ', 'Raze '
+   
+      'Adventurer: The Curse of the Midas Box, The ', 'Pride ', 'Trip to Italy, The ', 'Frank ', 'Internet's Own Boy: The Story of Aaron Swartz, The ', 'Double, The ', 'Batman: The Dark Knight Returns, Part 2 ', 'Nightcrawler ', 'All Cheerleaders Die ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Most Wanted Man, A ', 'Raze '
+    
     
     #### Cosine Similarity
     
-    'Hard to Be a God ', 'Batman: Assault on Arkham ', 'Felony ', 'Lilting ', 'Internet's Own Boy: The Story of Aaron Swartz, The ', 'Raze ', 'Trip to Italy, The ', 'In Your Eyes ', 'The Last Five Years ', 'Ascension ', 'All Cheerleaders Die ', 'Olive Kitteridge ', 'Blind ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns '
+    
+     'Hard to Be a God ', 'Batman: Assault on Arkham ', 'Felony ', 'Lilting ', 'Internet's Own Boy: The Story of Aaron Swartz, The ', 'Raze ', 'Trip to Italy, The ', 'In Your Eyes ', 'The Last Five Years ', 'Ascension ', 'All Cheerleaders Die ', 'Olive Kitteridge ', 'Blind ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns '
+
 
 
 6) For user id = 3251
@@ -197,10 +211,13 @@ The algorithm is tested to check the efficiency for some users which are listed 
    The top 15 recommendations obtained for this user 3251 are 
    
     #### Pearson Correlation
+    
    
-    'Hard to Be a God ', 'Batman: Assault on Arkham ', 'Felony ', 'Lilting ', 'Stranger by the Lake (L'inconnu du lac) ', 'Justice League: War ', 'Adventurer: The Curse of the Midas Box, The ', 'American Sniper ', 'Raze ', 'Bridegroom ', 'Batman: The Dark Knight Returns, Part 2 ', 'National Gallery ', 'Ascension ', 'All Cheerleaders Die ', 'Horns '
+      'Hard to Be a God ', 'Batman: Assault on Arkham ', 'Felony ', 'Lilting ', 'Stranger by the Lake (L'inconnu du lac) ', 'Justice League: War ', 'Adventurer: The Curse of the Midas Box, The ', 'American Sniper ', 'Raze ', 'Bridegroom ', 'Batman: The Dark Knight Returns, Part 2 ', 'National Gallery ', 'Ascension ', 'All Cheerleaders Die ', 'Horns '
+    
     
     #### Cosine Similarity
+
 
 7) For user id = 3845
    ![image](https://user-images.githubusercontent.com/20443793/145142295-447045ef-cf22-44eb-bcc2-02ebb735d36b.png)
@@ -208,9 +225,12 @@ The algorithm is tested to check the efficiency for some users which are listed 
    
     #### Pearson Correlation
    
-   'Citizenfour ', 'Coherence ', 'Whiplash ', 'Raze ', 'Lilting ', 'Locke ', 'Starred Up ', 'Better Living Through Chemistry ', 'Blue Is the Warmest Color (La vie d'Adèle) ', 'Insidious: Chapter 2 ', 'About Time ', 'Kick-Ass 2 ', 'Great Gatsby, The ', 'Pain & Gain ', 'East, The '
+   
+    'Citizenfour ', 'Coherence ', 'Whiplash ', 'Raze ', 'Lilting ', 'Locke ', 'Starred Up ', 'Better Living Through Chemistry ', 'Blue Is the Warmest Color (La vie d'Adèle) ', 'Insidious: Chapter 2 ', 'About Time ', 'Kick-Ass 2 ', 'Great Gatsby, The ', 'Pain & Gain ', 'East, The '
+   
    
    #### Cosine Similarity
+
 
 
 8) For user id = 4541
@@ -218,8 +238,10 @@ The algorithm is tested to check the efficiency for some users which are listed 
    The top 15 recommendations obtained for this user 4541 are 
    
     #### Pearson Correlation
+    
    
-   'Pride ', 'Felony ', 'Hard to Be a God ', 'Internet's Own Boy: The Story of Aaron Swartz, The ', 'Raze ', 'East, The ', 'All Cheerleaders Die ', 'Olive Kitteridge ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Trip to Italy, The ', 'Jim Gaffigan: Obsessed ', 'Bad Words '
+    'Pride ', 'Felony ', 'Hard to Be a God ', 'Internet's Own Boy: The Story of Aaron Swartz, The ', 'Raze ', 'East, The ', 'All Cheerleaders Die ', 'Olive Kitteridge ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Trip to Italy, The ', 'Jim Gaffigan: Obsessed ', 'Bad Words '
+   
    
    #### Cosine Similarity
 
@@ -230,7 +252,9 @@ The algorithm is tested to check the efficiency for some users which are listed 
    
    #### Pearson Correlation
    
-   'Justice League: War ', 'Whiplash ', 'Ascension ', 'Olive Kitteridge ', 'Blind ', 'American Sniper ', 'This Is Where I Leave You ', 'Wish I Was Here ', 'Under the Skin ', 'Grand Piano ', 'Big Bad Wolves ', 'Me, Myself and Mum (Les garçons et Guillaume, à table!) ', 'Armstrong Lie, The ', 'Fifth Estate, The ', 'Inequality for All '
+   
+    'Justice League: War ', 'Whiplash ', 'Ascension ', 'Olive Kitteridge ', 'Blind ', 'American Sniper ', 'This Is Where I Leave You ', 'Wish I Was Here ', 'Under the Skin ', 'Grand Piano ', 'Big Bad Wolves ', 'Me, Myself and Mum (Les garçons et Guillaume, à table!) ', 'Armstrong Lie, The ', 'Fifth Estate, The ', 'Inequality for All '
+   
    
    #### Cosine Similarity
 
@@ -241,7 +265,9 @@ The algorithm is tested to check the efficiency for some users which are listed 
    
    #### Pearson Correlation
    
-   'Adventurer: The Curse of the Midas Box, The ', 'Citizenfour ', 'American Sniper ', 'Jim Gaffigan: Obsessed ', 'Louis C.K.: Oh My God ', 'Nightcrawler ', 'Birdman ', 'Gone Girl ', 'Grand Budapest Hotel, The ', 'Big Hero 6 ', 'Batman: The Dark Knight Returns, Part 2 ', 'X-Men: Days of Future Past ', 'Guardians of the Galaxy ', "Bill Burr: I'm Sorry You Feel That Way ", 'What We Do in the Shadows '
+   
+    'Adventurer: The Curse of the Midas Box, The ', 'Citizenfour ', 'American Sniper ', 'Jim Gaffigan: Obsessed ', 'Louis C.K.: Oh My God ', 'Nightcrawler ', 'Birdman ', 'Gone Girl ', 'Grand Budapest Hotel, The ', 'Big Hero 6 ', 'Batman: The Dark Knight Returns, Part 2 ', 'X-Men: Days of Future Past ', 'Guardians of the Galaxy ', "Bill Burr: I'm Sorry You Feel That Way ", 'What We Do in the Shadows '
+   
    
    #### Cosine Similarity
 
