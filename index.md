@@ -162,6 +162,8 @@ The algorithm is tested to check the efficiency for some users which are listed 
     #### Pearson Correlation
    
      'Penguins of Madagascar ', 'Foxcatcher ', 'American Sniper ', 'Coherence ', 'Justice League: War ', 'Sound City ', 'Warm Bodies ', 'Wind Rises, The (Kaze tachinu) ', 'Delivery Man ', 'Wish I Was Here ', 'Insidious: Chapter 2 ', 'The Fault in Our Stars ', 'Citizenfour ', 'Bad Words ', 'Big Bad Wolves '
+     
+    #### Cosine Similarity
 
 
 4) For user id = 1588,
@@ -173,6 +175,9 @@ The algorithm is tested to check the efficiency for some users which are listed 
     'Foxcatcher ', 'Bridegroom ', 'Double, The ', 'Whiplash ', 'Raze ', 'Pride ', 'American Sniper ', 'All Cheerleaders Die ', 'Olive Kitteridge ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Jersey Boys ', 'Normal Heart, The ', 'Jim Gaffigan: Obsessed '
     
     #### Cosine Similarity
+    
+    'Hard to Be a God ', 'Raze ', 'In Your Eyes ', 'Big Bad Wolves ', 'Ascension ', 'Free Fall ', 'Olive Kitteridge ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Trip to Italy, The ', 'Wish I Was Here ', 'Normal Heart, The ', 'Jim Gaffigan: Obsessed ', 'Venus in Fur (La Vénus à la fourrure) '
+
 
 5) For user id = 2460
    ![image](https://user-images.githubusercontent.com/20443793/145142114-160c7ca2-876e-41d3-b4bb-4648e78e5e01.png)
@@ -183,6 +188,9 @@ The algorithm is tested to check the efficiency for some users which are listed 
     'Adventurer: The Curse of the Midas Box, The ', 'Pride ', 'Trip to Italy, The ', 'Frank ', 'Internet's Own Boy: The Story of Aaron Swartz, The ', 'Double, The ', 'Batman: The Dark Knight Returns, Part 2 ', 'Nightcrawler ', 'All Cheerleaders Die ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Most Wanted Man, A ', 'Raze '
     
     #### Cosine Similarity
+    
+    'Hard to Be a God ', 'Batman: Assault on Arkham ', 'Felony ', 'Lilting ', 'Internet's Own Boy: The Story of Aaron Swartz, The ', 'Raze ', 'Trip to Italy, The ', 'In Your Eyes ', 'The Last Five Years ', 'Ascension ', 'All Cheerleaders Die ', 'Olive Kitteridge ', 'Blind ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns '
+
 
 6) For user id = 3251
    ![image](https://user-images.githubusercontent.com/20443793/145142198-209d3ec3-a823-456d-848e-e27e056df426.png)
@@ -235,7 +243,7 @@ The algorithm is tested to check the efficiency for some users which are listed 
    
    'Adventurer: The Curse of the Midas Box, The ', 'Citizenfour ', 'American Sniper ', 'Jim Gaffigan: Obsessed ', 'Louis C.K.: Oh My God ', 'Nightcrawler ', 'Birdman ', 'Gone Girl ', 'Grand Budapest Hotel, The ', 'Big Hero 6 ', 'Batman: The Dark Knight Returns, Part 2 ', 'X-Men: Days of Future Past ', 'Guardians of the Galaxy ', "Bill Burr: I'm Sorry You Feel That Way ", 'What We Do in the Shadows '
    
-  #### Pearson Correlation
+   #### Cosine Similarity
 
  
  
