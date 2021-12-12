@@ -326,7 +326,7 @@ Additionally we used ALS to train model and to calculate Root Mean Square Error 
 - Running the dsba-cluster for both pearson correlation and cosine similarity to test was a bit time consuming.
 - We were surprised to find the recommendations made by both pearson and cosine, have very less similarity. For the random users tested, to get top 15 recommendations, atmost only 6-7 recommendations are same.
 - We got to know how to use spark in regular python code and how to use map, filter, show commands using spark
-- Also, this project made more sense, when studying for final - Recommender systems & spark topic
+- Also, this project made it easier, when studying for final - Recommender systems & spark topic
 
 ## Work Division
 
