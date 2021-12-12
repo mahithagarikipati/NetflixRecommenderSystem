@@ -5,20 +5,20 @@
 - [X] 1. Created web page for course project report. One report per team. Prefer UNCC hosted web 
 page, but GitHub or similar sites are ok. Please do not share code on your web page. 
 - [X] 2. Project title and names of team members. 
-- [ ] 3. Overview of project, tasks involved and approach, steps implemented, and final products and 
+- [X] 3. Overview of project, tasks involved and approach, steps implemented, and final products and 
 results.  
 - [X] 4. Context and motivation for project, stating what is interesting/important/useful/fun about it. 
 - [X] 5. Data set(s) used for project and how they were obtained, size of data, and features used. 
-- [ ] 6. What algorithms and techniques were implemented, and frameworks (e.g., Hadoop, Spark) 
+- [X] 6. What algorithms and techniques were implemented, and frameworks (e.g., Hadoop, Spark) 
 used. 
-- [ ] 7. Please state any other (external) tools or software packages you used. 
+- [X] 7. Please state any other (external) tools or software packages you used. 
 - [ ] 8. Illustrative results and examples. 
 - [ ] 9. Performance evaluation, preferably quantitative. 
-- [ ] 10.  What aspects of the (a) definitely will do, (b) likely will do, and (c) would ideally like to do items 
+- [X] 10.  What aspects of the (a) definitely will do, (b) likely will do, and (c) would ideally like to do items 
 did you accomplish? 
-- [ ] 11.  Any additional comments and observations (e.g., challenges, surprises, cool enhancements, 
+- [X] 11.  Any additional comments and observations (e.g., challenges, surprises, cool enhancements, 
 things you learnt,...) 
-- [ ] 12.  Work division among team members. 
+- [X] 12.  Work division among team members. 
 - [ ] 13.  Any important references that you used. 
 - [ ] 14.  Documented and commented code, and README with the information we need to know to run 
 your code. (Do not post code publicly, although you can include snippets in your report if you 
@@ -109,9 +109,6 @@ We calculated the Pearson Correlation Coefficient and therefore similarity among
 3.1 indicates that two users have identical behaviors.
 
 The Pearson Correlation Coefficient between two variables can be found by dividing the covariance of the variables by the product of their standard deviations in statistics.
-Here is the sample code:
-![image](https://user-images.githubusercontent.com/95369639/145698126-4cd6dd87-582f-42e8-8f04-b356dd10bd5a.png)
-
 
 #### Alternating Least Squares
 The Alternating Least Square (ALS) algorithm is a matrix factorization approach which runs in parallel. 
@@ -120,12 +117,10 @@ ALS does a decent job of dealing with the Ratings data's scalability and sparsen
 We use Matrix Factorization to deconstruct the user-item matrix into a lower-dimensional matrix comprising user factors and item factors.
 
 ##### Our work flow is following:
-1.When a new user enters their favourite movies, the system generates new user-movie interaction samples for the model.
-2.With the new inputs, the system retrains the ALS model on data.
-3.For inference, the system generates movie data (in my case, I sample all movies from the data)
-4.According to the ranking of movie rating predictions, the system generates the top N movie recommendations for that user.
-5. Here is the sample code
-![image](https://user-images.githubusercontent.com/95369639/145698101-1719b4de-1d91-404f-bf16-207723440556.png)
+1. When a new user enters their favourite movies, the system generates new user-movie interaction samples for the model.
+2. With the new inputs, the system retrains the ALS model on data.
+3. For inference, the system generates movie data (in our case,  we sample all movies from the data)
+4. According to the ranking of movie rating predictions, the system generates the top N movie recommendations for that user.
 
 By minimizing the cost function, these smaller dimension matrices are used to estimate the ratings.
 Ratings are predicted and given as results after numerous iterations of lowering the Root Mean Square Error at the convergence point.
@@ -158,6 +153,12 @@ SInce, the name of the user is not available in the dataset, user id is consider
 
 Any of these user id's can be selected inorder to get recommendations based on other users ratings.
 
+
+### Algorithms and techniques implemented, frameworks used, External Tools
+ 
+ Implemented Pearson correlation coefficient, Cosine Similarity , Alternating Least squares. Spark framework is used for the algorithm implementations.
+ 
+ We made use of Google Colab and Jupiter notebook for compiling the code and dsba-hadoop cluster for deployment.
 
 ### Pearson Correlation Coefficient  & Cosine Similarity Algorithm Results
 The algorithm is tested to check the efficiency for some users which are listed above
@@ -303,13 +304,45 @@ The algorithm is tested to check the efficiency for some users which are listed 
    
        'Trip to Italy, The ', 'They Came Together ', 'Bridegroom ', 'Raze ', 'Boxtrolls, The ', 'Ascension ', 'All Cheerleaders Die ', 'Olive Kitteridge ', 'Blind ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Wish I Was Here ', 'Normal Heart, The '
        
-       
-        
 
-### Jekyll Themes
+## Performance Evaluation
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mahithagarikipati/NetflixRecommenderSystem/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## What we accomplished?
 
-### Support or Contact
+In our project proposal, we planned to develop a hybrid movie recommender system for Netflix platform based on the MovieLens 20M dataset, that can be implemented on distributed systems using spark.
+- (a) definitely will do - Collaborative filtering using Pearson Correlation Algorithm
+- (b) likely will do - Comparing the Pearson correlation result with cosine similarity 
+- (c) would ideally like to do items - Content based filtering and Integrating the both filtering to make a hybrid recommendation system
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+We accomplished both a & b. We implemented collaborative filtering using pearson correlation and compared with cosine similarity. 
+
+Additionally we used ALS to train model and to calculate Root Mean Square Error value
+
+## Comments & Observations
+
+- Having never worked with spark, it was challange to learn how to integrate it with Google Colab platform.
+- As the initial data is vast, when we tried running it on dsba-hadoop cluster, it took more than a day to run the pearson correlation, after which vpn connection got terminated.
+- Reducing the dataset, has made the recommendations bit easier, however the cluster still took a little more than an hour to give recommendations. 
+- Running the dsba-cluster for both pearson correlation and cosine similarity to test was a bit time consuming.
+- We were surprised to find the recommendations made by both pearson and cosine, have very less similarity. For the random users tested, to get top 15 recommendations, atmost only 6-7 recommendations are same.
+- We got to know how to use spark in regular python code and how to use map, filter, show commands using spark
+- Also, this project made more sense, when studying for final - Recommender systems & spark topic
+
+## Work Division
+
+### Mahitha Garikipati
+Data cleaning
+Pearson Correlation Algorithm implementation 
+Cluster/Deployment in spark
+Cosine Similarity implementation
+Project Report
+
+### Navya Gunti
+Fetching the data
+Alternating Least Squares algorithm implementation
+Cluster/Deployment in spark
+Testing Cosine Similarity for random users to compare with Pearson
+Project Report
+
+## References
+
