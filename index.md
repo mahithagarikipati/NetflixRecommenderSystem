@@ -307,6 +307,29 @@ The algorithm is tested to check the efficiency for some users which are listed 
 
 ## Performance Evaluation
 
+ALS, have been applied by splitting the data into 70-30% training and test data as well as 85-15% training and test data.
+
+RMSE value, when considered 70,30 split percentage is 1.696 while for the 85,15 split is 1.656.
+
+Clearly from the above outputs, the recommendations when made for each user, using pearson and cosine are only around 40% common.
+
+Evaluating these results by considering the recommendations from ALS, Pearson correlation and cosine similarity for a random user among the above 10.
+
+For user id = 2460
+   ![image](https://user-images.githubusercontent.com/20443793/145142114-160c7ca2-876e-41d3-b4bb-4648e78e5e01.png)
+   The top 15 recommendations obtained for this user 2460 are 
+   
+ 
+ Pearson Correlation ---> 'Adventurer: The Curse of the Midas Box, The ', 'Pride ', 'Trip to Italy, The ', 'Frank ', 'Internet's Own Boy: The Story of Aaron Swartz, The ', 'Double, The ', 'Batman: The Dark Knight Returns, Part 2 ', 'Nightcrawler ', 'All Cheerleaders Die ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Most Wanted Man, A ', 'Raze '
+ 
+ Cosine Similarity ----->  'Hard to Be a God ', 'Batman: Assault on Arkham ', 'Felony ', 'Lilting ', 'Internet's Own Boy: The Story of Aaron Swartz, The ', 'Raze ', 'Trip to Italy, The ', 'In Your Eyes ', 'The Last Five Years ', 'Ascension ', 'All Cheerleaders Die ', 'Olive Kitteridge ', 'Blind ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns '
+ 
+ ALS using (70-30 )
+
+
+
+
+
 ## What we accomplished?
 
 In our project proposal, we planned to develop a hybrid movie recommender system for Netflix platform based on the MovieLens 20M dataset, that can be implemented on distributed systems using spark.
