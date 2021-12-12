@@ -12,19 +12,19 @@ results.
 - [X] 6. What algorithms and techniques were implemented, and frameworks (e.g., Hadoop, Spark) 
 used. 
 - [X] 7. Please state any other (external) tools or software packages you used. 
-- [ ] 8. Illustrative results and examples. 
-- [ ] 9. Performance evaluation, preferably quantitative. 
+- [X] 8. Illustrative results and examples. 
+- [X] 9. Performance evaluation, preferably quantitative. 
 - [X] 10.  What aspects of the (a) definitely will do, (b) likely will do, and (c) would ideally like to do items 
 did you accomplish? 
 - [X] 11.  Any additional comments and observations (e.g., challenges, surprises, cool enhancements, 
 things you learnt,...) 
 - [X] 12.  Work division among team members. 
-- [ ] 13.  Any important references that you used. 
+- [X] 13.  Any important references that you used. 
 - [ ] 14.  Documented and commented code, and README with the information we need to know to run 
 your code. (Do not post code publicly, although you can include snippets in your report if you 
 think that will be helpful.) Submitted on Canvas. 
 - [ ] 15.  Sent email to instructor and TA with link to project report. 
-- [ ] 16.  Signed up for project demo slot (to be decided). 
+- [X] 16.  Signed up for project demo slot (to be decided). 
 ### Overview
 The purpose of this project is to implement Netflix Recommender System by using cloud computing concepts.
 
@@ -366,6 +366,27 @@ For user id = 2460
 
 The top 10 ALS recommendations, have some recommendations common with Pearson correlation recommendations
 
+## deployment to dsba-cluster
+
+The algorithm python codes for pearson correlation, cosine similarity, ALS along with the datasets are moved to dsba hadoop.
+
+Once logging on to the dsba-hadoop cluster, the below commands are executed to run the algorithm
+
+Pearson Correlation:
+
+spark-submit NetflixRecommenderSystem.py /user/mgarikip/project/rating1.csv /user/mgarikip/project/movie_clean.csv 979> score979.txt
+
+
+CosineSimilarity:
+
+spark-submit CosineSimilarity.py /user/mgarikip/project/rating1.csv /user/mgarikip/project/movie_clean.csv 979> scorecosine979.txt
+
+ALS:
+
+spark-submit ALS.py /user/mgarikip/project/rating1.csv > ALS.txt
+
+For the pearson correlation and cosine similarity, the dsba-cluster takes a little more than an hour to generate movie recommendations, while ALS takes around 5-10 min
+
 
 ## What we accomplished?
 
@@ -406,3 +427,11 @@ Additionally we used ALS to train model and to calculate Root Mean Square Error 
 
 ## References
 
+- https://en.wikipedia.org/wiki/Cosine_similarity
+- https://realpython.com/build-recommendation-engine-collaborative-filtering/
+- https://towardsdatascience.com/alternating-least-square-for-implicit-dataset-with-code-8e7999277f4b
+- https://www.statisticshowto.com/probability-and-statistics/correlation-coefficient-formula/
+- https://www.analyticsvidhya.com/blog/2020/11/a-must-read-guide-on-how-to-work-with-pyspark-on-google-colab-for-data-scientists/
+- https://www.sicara.ai/blog/2017-05-02-get-started-pyspark-jupyter-notebook-3-minutes
+- https://spark.apache.org/docs/0.9.1/python-programming-guide.html
+- https://www.kaggle.com/rounakbanik/the-movies-dataset
