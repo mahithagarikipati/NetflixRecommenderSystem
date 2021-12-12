@@ -323,7 +323,7 @@ The recomendations for the users are:
 
 2) If train=85% and Tes=15%, then the root mean square error is :
 
-![image](![image](https://user-images.githubusercontent.com/95369639/145729645-f9eb2c21-c253-4e57-91c1-60b6894e9d78.png))
+![image](https://user-images.githubusercontent.com/95369639/145729645-f9eb2c21-c253-4e57-91c1-60b6894e9d78.png)
 
 The reccomendations for the users are:
 ![image](https://user-images.githubusercontent.com/95369639/145729677-07d8fde8-c9b0-44df-93d3-c6ae9c0a3edf.png)
@@ -347,11 +347,13 @@ For user id = 2460
  Pearson Correlation ---> 'Adventurer: The Curse of the Midas Box, The ', 'Pride ', 'Trip to Italy, The ', 'Frank ', 'Internet's Own Boy: The Story of Aaron Swartz, The ', 'Double, The ', 'Batman: The Dark Knight Returns, Part 2 ', 'Nightcrawler ', 'All Cheerleaders Die ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Most Wanted Man, A ', 'Raze '
  
  Cosine Similarity ----->  'Hard to Be a God ', 'Batman: Assault on Arkham ', 'Felony ', 'Lilting ', 'Internet's Own Boy: The Story of Aaron Swartz, The ', 'Raze ', 'Trip to Italy, The ', 'In Your Eyes ', 'The Last Five Years ', 'Ascension ', 'All Cheerleaders Die ', 'Olive Kitteridge ', 'Blind ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns '
+  
+ ALS using (70-30 ) -----> Nightcrawler , 42 , Frank, Edge of Tomorrow, Blue Jasmine , The Imitation Game, 'Grand Budapest Hotel, The ', 'Day of the Doctor, The ', Ender's Game , 'Great Gatsby, The'
  
- ALS using (70-30 )
+ ALS using (85-15 ) -----> Big Bad Wolves , Short Term 12 , Begin Again ,All Cheerleaders Die  , Birdman , 'Double, The ', Edge of Tomorrow , Whiplash , About Time , Side Effects 
 
 
-
+The top 10 ALS recommendations, have some recommendations common with Pearson correlation recommendations
 
 
 ## What we accomplished?
