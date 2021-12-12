@@ -154,6 +154,11 @@ The algorithm is tested to check the efficiency for some users which are listed 
 
 ### Pearson Correlation Coefficient 
 
+Running the Pearson Correlation for below users, to get the movie recommendations corresponding to them
+
+![image](https://user-images.githubusercontent.com/20443793/145731046-bb0ce68c-98a0-473c-95f7-7e809637f3ea.png)
+
+
 1) For user id = 31, the ratings of the movies are as follows
   ![image](https://user-images.githubusercontent.com/20443793/145141226-d5a0b0d6-9e54-4fd1-aa9e-9031e0915c21.png)
   
