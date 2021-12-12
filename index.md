@@ -331,18 +331,18 @@ Additionally we used ALS to train model and to calculate Root Mean Square Error 
 ## Work Division
 
 ### Mahitha Garikipati
-Data cleaning
-Pearson Correlation Algorithm implementation 
-Cluster/Deployment in spark
-Cosine Similarity implementation
-Project Report
+- Data cleaning
+- Pearson Correlation Algorithm implementation 
+- Cluster/Deployment in spark
+- Cosine Similarity implementation
+- Project Report
 
 ### Navya Gunti
-Fetching the data
-Alternating Least Squares algorithm implementation
-Cluster/Deployment in spark
-Testing Cosine Similarity for random users to compare with Pearson
-Project Report
+- Fetching the data
+- Alternating Least Squares algorithm implementation
+- Cluster/Deployment in spark
+- Testing Cosine Similarity for random users to compare with Pearson
+- Project Report
 
 ## References
 
