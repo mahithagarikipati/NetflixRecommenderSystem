@@ -245,6 +245,11 @@ The algorithm is tested to check the efficiency for some users which are listed 
    
 ### Cosine Similarity
 
+Run the Cosine similarity on input data and get the reccomended movies for the users mentioned below
+
+![image](https://user-images.githubusercontent.com/95369639/145729960-9d99e143-656d-44cf-8915-ceddbed0630d.png)
+
+
 1) For user id = 31,
   ![image](https://user-images.githubusercontent.com/20443793/145141226-d5a0b0d6-9e54-4fd1-aa9e-9031e0915c21.png)
   
@@ -312,20 +317,26 @@ The algorithm is tested to check the efficiency for some users which are listed 
        
   ### ALS
   
-  Run the ALS on input data and to reccomand the movies for user 
+  Run the ALS on input data and to reccomand the movies for users mentioned below
+  
+![image](https://user-images.githubusercontent.com/95369639/145730059-9ccd29fb-208b-414a-a42d-3946a4340595.png)
+
  1) If train=70% and Test=30%, then the root mean square error is :
 
 ![image](https://user-images.githubusercontent.com/95369639/145729692-fa061601-ff92-4e30-9604-aacddbf073e8.png)
 
 The recomendations for the users are:
+
 ![image](https://user-images.githubusercontent.com/95369639/145729702-c9d5e890-0d9a-43a4-9156-3b37fd184c06.png)
 
 
 2) If train=85% and Tes=15%, then the root mean square error is :
 
-![image](![image](https://user-images.githubusercontent.com/95369639/145729645-f9eb2c21-c253-4e57-91c1-60b6894e9d78.png))
+![image](https://user-images.githubusercontent.com/95369639/145729890-91dee294-e4e9-4a97-af70-d89e8b9f0f85.png)
+
 
 The reccomendations for the users are:
+
 ![image](https://user-images.githubusercontent.com/95369639/145729677-07d8fde8-c9b0-44df-93d3-c6ae9c0a3edf.png)
 
 
