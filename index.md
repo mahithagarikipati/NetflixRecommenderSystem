@@ -126,6 +126,12 @@ By minimizing the cost function, these smaller dimension matrices are used to es
 Ratings are predicted and given as results after numerous iterations of lowering the Root Mean Square Error at the convergence point.
 
 #### Cosine Similarity:
+The cosine of the angle between two vectors projected into multidimensional space is used to compute cosine similarity between two vectors. 
+That can be used on items in a dataset to determine how similar they are to one another utilizing keywords or other criteria. 
+The dot product of two vectors (A and B) is divided by the reported to be significantly to calculate the similarity between them, as indicated in the equation below. 
+Simply put, as the angle between two vectors lowers, the CS score of the two vectors increases.
+![image](https://user-images.githubusercontent.com/95369639/145727646-964b7350-c73b-4349-b1b5-7565d4a7ae0c.png)
+
 
 ###  About our modified dataset:
 
@@ -304,6 +310,23 @@ The algorithm is tested to check the efficiency for some users which are listed 
    
         'Trip to Italy, The ', 'They Came Together ', 'Bridegroom ', 'Raze ', 'Boxtrolls, The ', 'Ascension ', 'All Cheerleaders Die ', 'Olive Kitteridge ', 'Blind ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Wish I Was Here ', 'Normal Heart, The '
        
+  ### ALS
+ 1) If train=70% and Test=30%, then the root mean square error is :
+
+![image](https://user-images.githubusercontent.com/95369639/145727873-afcc3a91-87d5-4561-aaaa-5a2ab9e30082.png)
+
+
+The recomendations for the users are:
+![image](https://user-images.githubusercontent.com/95369639/145727895-91ee2d46-3a65-4824-9fab-0fb2c5d79a20.png)
+
+
+2) If train=85% and Tes=15%, then the root mean square error is :
+
+![image](https://user-images.githubusercontent.com/95369639/145727916-e88ecaff-217d-468c-9eb8-09b4b9227f26.png)
+
+The reccomendations for the users are:
+![image](https://user-images.githubusercontent.com/95369639/145727940-5a1b166a-d8bf-475b-b1f6-ba8356d9753b.png)
+
 
 ## Performance Evaluation
 
