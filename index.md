@@ -19,12 +19,12 @@ did you accomplish?
 - [X] 11.  Any additional comments and observations (e.g., challenges, surprises, cool enhancements, 
 things you learnt,...) 
 - [X] 12.  Work division among team members. 
-- [X] 13.  Any important references that you used. 
+- [ ] 13.  Any important references that you used. 
 - [ ] 14.  Documented and commented code, and README with the information we need to know to run 
 your code. (Do not post code publicly, although you can include snippets in your report if you 
 think that will be helpful.) Submitted on Canvas. 
 - [ ] 15.  Sent email to instructor and TA with link to project report. 
-- [X] 16.  Signed up for project demo slot (to be decided). 
+- [ ] 16.  Signed up for project demo slot (to be decided). 
 ### Overview
 The purpose of this project is to implement Netflix Recommender System by using cloud computing concepts.
 
@@ -167,7 +167,7 @@ Any of these user id's can be selected inorder to get recommendations based on o
  We made use of Google Colab and Jupiter notebook for compiling the code and dsba-hadoop cluster for deployment.
 
 ### Pearson Correlation Coefficient  & Cosine Similarity Algorithm Results
-The algorithm is tested to check the efficiency for some random users from the list above
+The algorithm is tested to check the efficiency for some users which are listed above
 
 ### Pearson Correlation Coefficient 
 
@@ -311,21 +311,22 @@ The algorithm is tested to check the efficiency for some random users from the l
         'Trip to Italy, The ', 'They Came Together ', 'Bridegroom ', 'Raze ', 'Boxtrolls, The ', 'Ascension ', 'All Cheerleaders Die ', 'Olive Kitteridge ', 'Blind ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Wish I Was Here ', 'Normal Heart, The '
        
   ### ALS
+  
+  Run the ALS on input data and to reccomand the movies for user 
  1) If train=70% and Test=30%, then the root mean square error is :
 
-![image](https://user-images.githubusercontent.com/95369639/145727873-afcc3a91-87d5-4561-aaaa-5a2ab9e30082.png)
-
+![image](https://user-images.githubusercontent.com/95369639/145729692-fa061601-ff92-4e30-9604-aacddbf073e8.png)
 
 The recomendations for the users are:
-![image](https://user-images.githubusercontent.com/95369639/145727895-91ee2d46-3a65-4824-9fab-0fb2c5d79a20.png)
+![image](https://user-images.githubusercontent.com/95369639/145729702-c9d5e890-0d9a-43a4-9156-3b37fd184c06.png)
 
 
-2) If train=85% and Test=15%, then the root mean square error is :
+2) If train=85% and Tes=15%, then the root mean square error is :
 
-![image](https://user-images.githubusercontent.com/95369639/145727916-e88ecaff-217d-468c-9eb8-09b4b9227f26.png)
+![image](![image](https://user-images.githubusercontent.com/95369639/145729645-f9eb2c21-c253-4e57-91c1-60b6894e9d78.png))
 
 The reccomendations for the users are:
-![image](https://user-images.githubusercontent.com/95369639/145727940-5a1b166a-d8bf-475b-b1f6-ba8356d9753b.png)
+![image](https://user-images.githubusercontent.com/95369639/145729677-07d8fde8-c9b0-44df-93d3-c6ae9c0a3edf.png)
 
 
 ## Performance Evaluation
@@ -347,29 +348,10 @@ For user id = 2460
  
  Cosine Similarity ----->  'Hard to Be a God ', 'Batman: Assault on Arkham ', 'Felony ', 'Lilting ', 'Internet's Own Boy: The Story of Aaron Swartz, The ', 'Raze ', 'Trip to Italy, The ', 'In Your Eyes ', 'The Last Five Years ', 'Ascension ', 'All Cheerleaders Die ', 'Olive Kitteridge ', 'Blind ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns '
  
- ALS using (70-30 ) -----> 
+ ALS using (70-30 )
 
 
-## deployment to dsba-cluster
 
-The algorithm python codes for pearson correlation, cosine similarity, ALS along with the datasets are moved to dsba hadoop.
-
-Once logging on to the dsba-hadoop cluster, the below commands are executed to run the algorithm
-
-Pearson Correlation:
-
-spark-submit NetflixRecommenderSystem.py /user/mgarikip/project/rating1.csv /user/mgarikip/project/movie_clean.csv 979> score979.txt
-
-
-CosineSimilarity:
-
-spark-submit CosineSimilarity.py /user/mgarikip/project/rating1.csv /user/mgarikip/project/movie_clean.csv 979> scorecosine979.txt
-
-ALS:
-
-spark-submit ALS.py /user/mgarikip/project/rating1.csv > ALS.txt
-
-For the pearson correlation and cosine similarity, the dsba-cluster takes a little more than an hour to generate movie recommendations, while ALS takes around 5-10 min
 
 
 ## What we accomplished?
@@ -411,11 +393,3 @@ Additionally we used ALS to train model and to calculate Root Mean Square Error 
 
 ## References
 
-- https://en.wikipedia.org/wiki/Cosine_similarity
-- https://realpython.com/build-recommendation-engine-collaborative-filtering/
-- https://towardsdatascience.com/alternating-least-square-for-implicit-dataset-with-code-8e7999277f4b
-- https://www.statisticshowto.com/probability-and-statistics/correlation-coefficient-formula/
-- https://www.analyticsvidhya.com/blog/2020/11/a-must-read-guide-on-how-to-work-with-pyspark-on-google-colab-for-data-scientists/
-- https://www.sicara.ai/blog/2017-05-02-get-started-pyspark-jupyter-notebook-3-minutes
-- https://spark.apache.org/docs/0.9.1/python-programming-guide.html
-- https://www.kaggle.com/rounakbanik/the-movies-dataset
