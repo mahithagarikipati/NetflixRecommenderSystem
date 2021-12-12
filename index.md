@@ -264,13 +264,13 @@ The algorithm is tested to check the efficiency for some users which are listed 
    ![image](https://user-images.githubusercontent.com/20443793/145141938-3eba587f-6a37-4171-bc83-ea8aa4c58ad7.png)
    The top 15 recommendations obtained for this  user 1588 are  
        
-       'Hard to Be a God ', 'Raze ', 'In Your Eyes ', 'Big Bad Wolves ', 'Ascension ', 'Free Fall ', 'Olive Kitteridge ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Trip to Italy, The ', 'Wish I Was Here ', 'Normal Heart, The ', 'Jim Gaffigan: Obsessed ', 'Venus in Fur (La Vénus à la fourrure) '
+          'Hard to Be a God ', 'Raze ', 'In Your Eyes ', 'Big Bad Wolves ', 'Ascension ', 'Free Fall ', 'Olive Kitteridge ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Trip to Italy, The ', 'Wish I Was Here ', 'Normal Heart, The ', 'Jim Gaffigan: Obsessed ', 'Venus in Fur (La Vénus à la fourrure) '
     
  5) For user id = 2460
    ![image](https://user-images.githubusercontent.com/20443793/145142114-160c7ca2-876e-41d3-b4bb-4648e78e5e01.png)
    The top 15 recommendations obtained for this user 2460 are 
     
-       'Hard to Be a God ', 'Batman: Assault on Arkham ', 'Felony ', 'Lilting ', 'Internet's Own Boy: The Story of Aaron Swartz, The ', 'Raze ', 'Trip to Italy, The ', 'In Your Eyes ', 'The Last Five Years ', 'Ascension ', 'All Cheerleaders Die ', 'Olive Kitteridge ', 'Blind ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns '
+          'Hard to Be a God ', 'Batman: Assault on Arkham ', 'Felony ', 'Lilting ', 'Internet's Own Boy: The Story of Aaron Swartz, The ', 'Raze ', 'Trip to Italy, The ', 'In Your Eyes ', 'The Last Five Years ', 'Ascension ', 'All Cheerleaders Die ', 'Olive Kitteridge ', 'Blind ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns '
 
 6) For user id = 3251
    ![image](https://user-images.githubusercontent.com/20443793/145142198-209d3ec3-a823-456d-848e-e27e056df426.png)
@@ -282,7 +282,7 @@ The algorithm is tested to check the efficiency for some users which are listed 
    ![image](https://user-images.githubusercontent.com/20443793/145142295-447045ef-cf22-44eb-bcc2-02ebb735d36b.png)
    The top 15 recommendations obtained for this user 3845 are 
    
-      'Hard to Be a God ', 'Batman: Assault on Arkham ', 'Felony ', 'Lilting ', "Internet's Own Boy: The Story of Aaron Swartz, The ", 'Wish I Was Here ', 'Raze ', 'The Last Five Years ', 'Love Steaks ', 'National Gallery ', 'Ascension ', 'All Cheerleaders Die ', 'Free Fall ', 'Olive Kitteridge ', 'Horns '
+          'Hard to Be a God ', 'Batman: Assault on Arkham ', 'Felony ', 'Lilting ', "Internet's Own Boy: The Story of Aaron Swartz, The ", 'Wish I Was Here ', 'Raze ', 'The Last Five Years ', 'Love Steaks ', 'National Gallery ', 'Ascension ', 'All Cheerleaders Die ', 'Free Fall ', 'Olive Kitteridge ', 'Horns '
    
 
 8) For user id = 4541
@@ -302,7 +302,7 @@ The algorithm is tested to check the efficiency for some users which are listed 
    ![image](https://user-images.githubusercontent.com/20443793/145142652-ef53a263-4e91-4767-9b78-aa6f87b98a6b.png)
    The top 15 recommendations obtained for this user 7027 are 
    
-       'Trip to Italy, The ', 'They Came Together ', 'Bridegroom ', 'Raze ', 'Boxtrolls, The ', 'Ascension ', 'All Cheerleaders Die ', 'Olive Kitteridge ', 'Blind ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Wish I Was Here ', 'Normal Heart, The '
+        'Trip to Italy, The ', 'They Came Together ', 'Bridegroom ', 'Raze ', 'Boxtrolls, The ', 'Ascension ', 'All Cheerleaders Die ', 'Olive Kitteridge ', 'Blind ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Wish I Was Here ', 'Normal Heart, The '
        
 
 ## Performance Evaluation
@@ -314,7 +314,7 @@ In our project proposal, we planned to develop a hybrid movie recommender system
 - (b) likely will do - Comparing the Pearson correlation result with cosine similarity 
 - (c) would ideally like to do items - Content based filtering and Integrating the both filtering to make a hybrid recommendation system
 
-We accomplished both a & b. We implemented collaborative filtering using pearson correlation and compared with cosine similarity. 
+We accomplished both (a) & (b). We implemented collaborative filtering using pearson correlation and compared with cosine similarity. 
 
 Additionally we used ALS to train model and to calculate Root Mean Square Error value
 
