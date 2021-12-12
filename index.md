@@ -1,31 +1,12 @@
 ## ITCS-6190 Group-3 Netflix Recommender System
+
 #### Mahitha Garikipati - mgarikip@uncc.edu
+
 #### Navya Gunti - ngunti@uncc.edu
 
-- [X] 1. Created web page for course project report. One report per team. Prefer UNCC hosted web 
-page, but GitHub or similar sites are ok. Please do not share code on your web page. 
-- [X] 2. Project title and names of team members. 
-- [X] 3. Overview of project, tasks involved and approach, steps implemented, and final products and 
-results.  
-- [X] 4. Context and motivation for project, stating what is interesting/important/useful/fun about it. 
-- [X] 5. Data set(s) used for project and how they were obtained, size of data, and features used. 
-- [X] 6. What algorithms and techniques were implemented, and frameworks (e.g., Hadoop, Spark) 
-used. 
-- [X] 7. Please state any other (external) tools or software packages you used. 
-- [X] 8. Illustrative results and examples. 
-- [X] 9. Performance evaluation, preferably quantitative. 
-- [X] 10.  What aspects of the (a) definitely will do, (b) likely will do, and (c) would ideally like to do items 
-did you accomplish? 
-- [X] 11.  Any additional comments and observations (e.g., challenges, surprises, cool enhancements, 
-things you learnt,...) 
-- [X] 12.  Work division among team members. 
-- [X] 13.  Any important references that you used. 
-- [ ] 14.  Documented and commented code, and README with the information we need to know to run 
-your code. (Do not post code publicly, although you can include snippets in your report if you 
-think that will be helpful.) Submitted on Canvas. 
-- [ ] 15.  Sent email to instructor and TA with link to project report. 
-- [X] 16.  Signed up for project demo slot (to be decided). 
+
 ### Overview
+
 The purpose of this project is to implement Netflix Recommender System by using cloud computing concepts.
 
 The concepts implemented are - Person Correlation Coefficient, Cosine Similarity algorithms, and Alternating Least squares to find RMSE
@@ -35,6 +16,7 @@ These algorithms made use of pySpark framework for implementing the collaborativ
 This project made use of dsba-hadoop cluster provided by the university for storing the data and to deploy the code.
 
 ### Tasks Involved and approach
+
 - Fetching Netflix movie datasets
 - Understanding of Algorithms to implement
 - Analyzing the datasets
@@ -49,6 +31,7 @@ This project made use of dsba-hadoop cluster provided by the university for stor
 - Creating Course Project web page
 
 ### Context & Motivation
+
 The context for this project is to implement a recommender system that predicts movies for Netflix platform. 
 
 In today’s world, it is important to recommend items based on users preference due to many competitors in the world’s market. 
@@ -315,7 +298,9 @@ Run the Cosine similarity on input data and get the reccomended movies for the u
    
         'Trip to Italy, The ', 'They Came Together ', 'Bridegroom ', 'Raze ', 'Boxtrolls, The ', 'Ascension ', 'All Cheerleaders Die ', 'Olive Kitteridge ', 'Blind ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Wish I Was Here ', 'Normal Heart, The '
        
-  ### ALS
+       
+### ALS
+  
   
   Run the ALS on input data and to reccomand the movies for users mentioned below
   
