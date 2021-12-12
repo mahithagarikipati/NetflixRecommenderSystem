@@ -207,6 +207,26 @@ The algorithm is tested to check the efficiency for some users which are listed 
    
 ### Cosine Similarity
 
+1) For user id = 31,
+  ![image]()
+  
+   The top 15 recommendations obtained for this user 31 are 
+
+        'Batman: Assault on Arkham ', 'Hard to Be a God ', 'Felony ', 'Lilting ', 'Justice League: War ', 'Wish I Was Here ', 'Raze ', 'Trip to Italy, The ', 'In Your Eyes ', 'Jersey Boys ', 'The Last Five Years ', 'Ascension ', 'Free Fall ', 'Olive Kitteridge ', 'Blind '
+        
+2) For user id = 540,
+   ![image]()
+   
+   The top 15 recommendations obtained for this user 540 are 
+
+       "Stranger by the Lake (L'inconnu du lac) ", 'Raze ', 'Ascension ', 'All Cheerleaders Die ', 'Free Fall ', 'Olive Kitteridge ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Frequencies ', 'Normal Heart, The ', 'Jim Gaffigan: Obsessed ', 'Big Bad Wolves ', 'Me, Myself and Mum (Les garçons et Guillaume, à table!) '
+
+3) For user id = 979,
+   ![image]()
+   The top 15 recommendations obtained for this user 979 are 
+   
+       'Hard to Be a God ', 'Batman: Assault on Arkham ', 'Lilting ', 'Justice League: War ', 'Felony ', 'Raze ', 'Wish I Was Here ', 'In Your Eyes ', 'Jersey Boys ', 'The Last Five Years ', 'Love Steaks ', 'Ascension ', 'Free Fall ', 'Olive Kitteridge ', 'Horns '
+     
  
  4) For user id = 1588,
    ![image](https://user-images.githubusercontent.com/20443793/145141938-3eba587f-6a37-4171-bc83-ea8aa4c58ad7.png)
@@ -220,8 +240,38 @@ The algorithm is tested to check the efficiency for some users which are listed 
     
        'Hard to Be a God ', 'Batman: Assault on Arkham ', 'Felony ', 'Lilting ', 'Internet's Own Boy: The Story of Aaron Swartz, The ', 'Raze ', 'Trip to Italy, The ', 'In Your Eyes ', 'The Last Five Years ', 'Ascension ', 'All Cheerleaders Die ', 'Olive Kitteridge ', 'Blind ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns '
 
+6) For user id = 3251
+   ![image]()
+   The top 15 recommendations obtained for this user 3251 are 
+   
+          'Hard to Be a God ', 'Felony ', 'Justice League: War ', 'Lilting ', 'Wish I Was Here ', 'Raze ', 'Bridegroom ', 'Boxtrolls, The ', 'The Last Five Years ', 'Love Steaks ', 'National Gallery ', 'Ascension ', 'Olive Kitteridge ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns '
 
+7) For user id = 3845
+   ![image]()
+   The top 15 recommendations obtained for this user 3845 are 
+   
+      'Hard to Be a God ', 'Batman: Assault on Arkham ', 'Felony ', 'Lilting ', "Internet's Own Boy: The Story of Aaron Swartz, The ", 'Wish I Was Here ', 'Raze ', 'The Last Five Years ', 'Love Steaks ', 'National Gallery ', 'Ascension ', 'All Cheerleaders Die ', 'Free Fall ', 'Olive Kitteridge ', 'Horns '
+   
 
+8) For user id = 4541
+   ![image]()
+   The top 15 recommendations obtained for this user 4541 are 
+   
+        'Hard to Be a God ', 'Felony ', 'Lilting ', 'Wish I Was Here ', 'Raze ', 'In Your Eyes ', 'Jersey Boys ', 'The Last Five Years ', 'Love Steaks ', 'National Gallery ', 'Ascension ', 'Free Fall ', 'Olive Kitteridge ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns '
+
+9) For user id = 6175
+   ![image]()
+   The top 15 recommendations obtained for this user 6175 are 
+   
+        'Batman: Assault on Arkham ', 'Trip to Italy, The ', 'They Came Together ', 'Justice League: War ', 'Raze ', 'Wish I Was Here ', 'In Your Eyes ', 'Ascension ', 'Free Fall ', 'Olive Kitteridge ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Perfect Sisters '
+   
+
+10) For user id = 7027
+   ![image]()
+   The top 15 recommendations obtained for this user 7027 are 
+   
+       'Trip to Italy, The ', 'They Came Together ', 'Bridegroom ', 'Raze ', 'Boxtrolls, The ', 'Ascension ', 'All Cheerleaders Die ', 'Olive Kitteridge ', 'Blind ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Wish I Was Here ', 'Normal Heart, The '
+        
 
 ### Jekyll Themes
 
