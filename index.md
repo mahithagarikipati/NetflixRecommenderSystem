@@ -95,10 +95,41 @@ In this type of Recommender Systems, recommendations are made to the user based 
 
 #### Pearson Correlation Coefficient:
 
+The extent to which two sets of data are related is measured by correlation. 
+The most common measure of correlation in statistics is the Pearson Correlation. 
+The Pearson Product Moment Correlation is its full name (PPMC). It shows the relationship between two sets of data in a linear way.
 
+![image](https://user-images.githubusercontent.com/95369639/145697582-5ee562d1-9a42-4303-a1ca-d6e3a4e1b6af.png)
+
+We calculated the Pearson Correlation Coefficient and therefore similarity among users based on the movies they saw and provided similar ratings to reach at movie recommendation as an outcomes.
+
+##### Interpreting Pearson Correlation
+1.-1 indicates that two users are behaving in radically opposing ways.
+2.There is no relationship between 0 and 1.
+3.1 indicates that two users have identical behaviors.
+
+The Pearson Correlation Coefficient between two variables can be found by dividing the covariance of the variables by the product of their standard deviations in statistics.
+Here is the sample code:
+![image](https://user-images.githubusercontent.com/95369639/145698126-4cd6dd87-582f-42e8-8f04-b356dd10bd5a.png)
 
 
 #### Alternating Least Squares
+The Alternating Least Square (ALS) algorithm is a matrix factorization approach which runs in parallel. 
+ALS is built for large-scale collaborative filtering tasks and is implemented in Apache Spark ML. 
+ALS does a decent job of dealing with the Ratings data's scalability and sparseness, and it's simple and scales well to very big datasets.
+We use Matrix Factorization to deconstruct the user-item matrix into a lower-dimensional matrix comprising user factors and item factors.
+
+##### Our work flow is following:
+1.When a new user enters their favourite movies, the system generates new user-movie interaction samples for the model.
+2.With the new inputs, the system retrains the ALS model on data.
+3.For inference, the system generates movie data (in my case, I sample all movies from the data)
+4.According to the ranking of movie rating predictions, the system generates the top N movie recommendations for that user.
+5. Here is the sample code
+![image](https://user-images.githubusercontent.com/95369639/145698101-1719b4de-1d91-404f-bf16-207723440556.png)
+
+By minimizing the cost function, these smaller dimension matrices are used to estimate the ratings.
+Ratings are predicted and given as results after numerous iterations of lowering the Root Mean Square Error at the convergence point.
+
 #### Cosine Similarity:
 
 ###  About our modified dataset:
@@ -215,14 +246,14 @@ The algorithm is tested to check the efficiency for some users which are listed 
         'Batman: Assault on Arkham ', 'Hard to Be a God ', 'Felony ', 'Lilting ', 'Justice League: War ', 'Wish I Was Here ', 'Raze ', 'Trip to Italy, The ', 'In Your Eyes ', 'Jersey Boys ', 'The Last Five Years ', 'Ascension ', 'Free Fall ', 'Olive Kitteridge ', 'Blind '
         
 2) For user id = 540,
-   ![image]()
+   ![image](https://user-images.githubusercontent.com/20443793/145141388-4ffcac6e-3be0-4a28-acef-1686a6956c5d.png)
    
    The top 15 recommendations obtained for this user 540 are 
 
        "Stranger by the Lake (L'inconnu du lac) ", 'Raze ', 'Ascension ', 'All Cheerleaders Die ', 'Free Fall ', 'Olive Kitteridge ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Frequencies ', 'Normal Heart, The ', 'Jim Gaffigan: Obsessed ', 'Big Bad Wolves ', 'Me, Myself and Mum (Les garçons et Guillaume, à table!) '
 
 3) For user id = 979,
-   ![image]()
+   ![image](https://user-images.githubusercontent.com/20443793/145141737-1708a8f6-08aa-4548-87a0-a65a7386ffe2.png)
    The top 15 recommendations obtained for this user 979 are 
    
        'Hard to Be a God ', 'Batman: Assault on Arkham ', 'Lilting ', 'Justice League: War ', 'Felony ', 'Raze ', 'Wish I Was Here ', 'In Your Eyes ', 'Jersey Boys ', 'The Last Five Years ', 'Love Steaks ', 'Ascension ', 'Free Fall ', 'Olive Kitteridge ', 'Horns '
@@ -241,36 +272,38 @@ The algorithm is tested to check the efficiency for some users which are listed 
        'Hard to Be a God ', 'Batman: Assault on Arkham ', 'Felony ', 'Lilting ', 'Internet's Own Boy: The Story of Aaron Swartz, The ', 'Raze ', 'Trip to Italy, The ', 'In Your Eyes ', 'The Last Five Years ', 'Ascension ', 'All Cheerleaders Die ', 'Olive Kitteridge ', 'Blind ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns '
 
 6) For user id = 3251
-   ![image]()
+   ![image](https://user-images.githubusercontent.com/20443793/145142198-209d3ec3-a823-456d-848e-e27e056df426.png)
    The top 15 recommendations obtained for this user 3251 are 
    
           'Hard to Be a God ', 'Felony ', 'Justice League: War ', 'Lilting ', 'Wish I Was Here ', 'Raze ', 'Bridegroom ', 'Boxtrolls, The ', 'The Last Five Years ', 'Love Steaks ', 'National Gallery ', 'Ascension ', 'Olive Kitteridge ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns '
 
 7) For user id = 3845
-   ![image]()
+   ![image](https://user-images.githubusercontent.com/20443793/145142295-447045ef-cf22-44eb-bcc2-02ebb735d36b.png)
    The top 15 recommendations obtained for this user 3845 are 
    
       'Hard to Be a God ', 'Batman: Assault on Arkham ', 'Felony ', 'Lilting ', "Internet's Own Boy: The Story of Aaron Swartz, The ", 'Wish I Was Here ', 'Raze ', 'The Last Five Years ', 'Love Steaks ', 'National Gallery ', 'Ascension ', 'All Cheerleaders Die ', 'Free Fall ', 'Olive Kitteridge ', 'Horns '
    
 
 8) For user id = 4541
-   ![image]()
+   ![image](https://user-images.githubusercontent.com/20443793/145142501-2f1ffade-ca77-4907-a4ce-9fda48beb2e6.png)
    The top 15 recommendations obtained for this user 4541 are 
    
         'Hard to Be a God ', 'Felony ', 'Lilting ', 'Wish I Was Here ', 'Raze ', 'In Your Eyes ', 'Jersey Boys ', 'The Last Five Years ', 'Love Steaks ', 'National Gallery ', 'Ascension ', 'Free Fall ', 'Olive Kitteridge ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns '
 
 9) For user id = 6175
-   ![image]()
+   ![image](https://user-images.githubusercontent.com/20443793/145142906-26b59fe6-e358-4c87-a643-e90b54582782.png)
    The top 15 recommendations obtained for this user 6175 are 
    
         'Batman: Assault on Arkham ', 'Trip to Italy, The ', 'They Came Together ', 'Justice League: War ', 'Raze ', 'Wish I Was Here ', 'In Your Eyes ', 'Ascension ', 'Free Fall ', 'Olive Kitteridge ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Perfect Sisters '
    
 
 10) For user id = 7027
-   ![image]()
+   ![image](https://user-images.githubusercontent.com/20443793/145142652-ef53a263-4e91-4767-9b78-aa6f87b98a6b.png)
    The top 15 recommendations obtained for this user 7027 are 
    
        'Trip to Italy, The ', 'They Came Together ', 'Bridegroom ', 'Raze ', 'Boxtrolls, The ', 'Ascension ', 'All Cheerleaders Die ', 'Olive Kitteridge ', 'Blind ', 'Jackass Presents: Bad Grandpa .5 ', 'Horns ', 'Proxy ', 'Sacrament, The ', 'Wish I Was Here ', 'Normal Heart, The '
+       
+       
         
 
 ### Jekyll Themes
